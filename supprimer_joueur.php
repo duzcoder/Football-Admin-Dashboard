@@ -14,10 +14,10 @@ if (isset($_POST['ids']) && is_array($_POST['ids'])) {
     $requete->execute($ids);
 
     // Redirection après suppression
-    header('Location: tp6affichage.php');
+    header('Location: index.php');
     exit();
 } else {
-    header('Location: tp6affichage.php?message=Aucun joueur selectionne');
+    header('Location: index.php?message=Aucun joueur selectionne');
     exit();
 }
 ?>

@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Redirect after successful submission
-    header("Location: tp6affichage.php");
+    header("Location: index.php");
     exit;
 }
 

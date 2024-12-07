@@ -14,10 +14,10 @@ if (isset($_POST['idm']) && is_array($_POST['idm'])) {
     $requete->execute($idmArray);
 
     // Redirection après la suppression
-    header('Location: tp6affichage.php');
+    header('Location: index.php');
     exit();
 } else {
-    header('Location: tp6affichage.php?message=Aucun but selectionne');
+    header('Location: index.php?message=Aucun but selectionne');
     exit();
 }
 ?>

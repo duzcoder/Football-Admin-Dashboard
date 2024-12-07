@@ -1,0 +1,59 @@
+/* General Table Styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+/* Table Header Styling */
+th {
+    background-color: #010e1d;
+    color: white;
+    font-weight: bold;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button Styles */
+button {
+    background-color: #010e1d;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #010e1d;
+}
+
+/* Form Button Margin */
+form button {
+    margin: 10px 0;
+}
+
+/* Input fields */
+input[type="hidden"] {
+    display: none;
+}
+
+/* General Form Styling */
+form {
+    display: inline;
+}
+
+/* Custom Button Styling */
+.btn-warning, .btn-danger, .btn-success {
+    font-size: 14px;
+}

@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $requete = $bdd->prepare('UPDATE matchs SET codeeq1 = ?, codeeq2 = ?, datem = ?, codest = ? WHERE idm = ?');
         $requete->execute(array($codeeqp1, $codeeqp2, $dateM, $codest, $idm));
 
-        header('Location: tp6affichage.php');
+        header('Location: index.php');
         exit();
     } else {
         echo "Tous les champs doivent être remplis.";

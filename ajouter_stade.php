@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $query->execute(array($codest, $lieu));
 
         // Redirect after successful insertion
-        header("Location: tp6affichage.php");
+        header("Location: index.php");
         exit;
     } else {
         echo "Both fields are required!";

@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $requete->execute(array($formData['nom'], $formData['age'], $formData['codeeq'], $formData['idj']));
 
         // Redirect back to player list after success
-        header('Location: tp6affichage.php');
+        header('Location: index.php');
         exit();
     } else {
         echo "Tous les champs doivent être remplis.";

@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $query->execute(array($idm, $idj, $nbr_but));
 
         // Redirect to another page after insertion
-        header("Location: tp6affichage.php"); 
+        header("Location: index.php"); 
         exit;
     } catch (Exception $e) {
         die('<div class="alert alert-danger">Error during insertion: ' . $e->getMessage() . '</div>');

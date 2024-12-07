@@ -18,7 +18,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="tp6affichage.php">Dashboard</a>
+        <a class="nav-link active" aria-current="page" href="index.php">Dashboard</a>
         <a class="nav-link" href="extraction.php">Extraction</a>
         <a class="nav-link" href="stat.php">Statistiques</a>
         <a class="nav-link" href="pdfpage.php">Statistiques en PDF</a>

@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             print_r($query->errorInfo());
         } else {
             echo '<div class="alert alert-success">Insertion réussie.</div>';
-            header("Location: tp6affichage.php");
+            header("Location: index.php");
             exit;
         }
     } catch (Exception $e) {

@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $query = $bdd->prepare('INSERT INTO equipe (codeeq, nomeq) VALUES (?, ?)');
         $query->execute(array($codeEq, $nomEqp));
 
-        header("Location: tp6affichage.php");
+        header("Location: index.php");
         exit;
     } else {
         echo "Both fields are required!";

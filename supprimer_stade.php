@@ -14,10 +14,10 @@ if (isset($_POST['codest']) && is_array($_POST['codest'])) {
     $requete->execute($codestArray);
 
     // Redirection après suppression
-    header('Location: tp6affichage.php');
+    header('Location:index.php');
     exit();
 } else {
-    header('Location: tp6affichage.php?message=Aucun stade selectionne');
+    header('Location: index.php?message=Aucun stade selectionne');
     exit();
 }
 ?>

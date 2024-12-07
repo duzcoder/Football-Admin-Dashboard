@@ -13,10 +13,10 @@ if (isset($_POST['codeeq']) && is_array($_POST['codeeq'])) {
     $requete->execute($codeeqArray);
 
     // Redirection vers la page initiale
-    header('Location: tp6affichage.php');
+    header('Location: index.php');
     exit();
 } else {
-    header('Location: tp6affichage.php?message=Aucune equipe selectionnee');
+    header('Location: index.php?message=Aucune equipe selectionnee');
     exit();
 }
 ?>

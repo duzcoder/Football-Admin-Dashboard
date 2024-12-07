@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $requete = $bdd->prepare('UPDATE marquer_but SET nbr_but = ? WHERE idm = ? AND idj = ?');
         $requete->execute(array($nbr_but,$idm,$idj));
 
-        header('Location: tp6affichage.php');
+        header('Location: index.php');
         exit();
     } else {
         echo "Tous les champs doivent etre remplis.";

@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $requete = $bdd->prepare('UPDATE equipe SET nomeq = ? WHERE codeeq = ?');
         $requete->execute(array($nomEqp, $codeEq)); 
 
-        header('Location: tp6affichage.php');
+        header('Location: index.php');
         exit();
     } else {
         echo "Tous les champs doivent être remplis.";
